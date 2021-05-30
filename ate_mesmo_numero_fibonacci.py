@@ -11,5 +11,4 @@ while True:
     c = a
     a = b
     b = a + c       
-print(resul)
-
+print(f'Soma dos termos de valor par que não excedem 4 milhões: {resul}')
