@@ -13,19 +13,6 @@ Encontre a diferença entre a soma dos quadrados dos primeiros cem números natu
 soma.
 '''
 
-# soma_quadrados = 385
-# quadrado_soma = 55
-
-# for i in range(11, 101):
-# 	soma_quadrados = soma_quadrados + (i**2)
-# 	quadrado_soma = quadrado_soma + i
-
-# quadrado_soma = quadrado_soma**2
-
-# diferenca = quadrado_soma - soma_quadrados
-
-# print(diferenca)
-
 def soma_quadrada(num):
 	soma = 0
 	for x in range(1,num+1):
